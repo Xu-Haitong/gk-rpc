@@ -13,7 +13,7 @@ public class HTTPTransportClient implements TransportClient {
 
     @Override
     public void connect(Peer peer) {
-        this.url = "http://" + peer.getHoust() + ":" + peer.getPort();
+        this.url = "http://" + peer.getHost() + ":" + peer.getPort();
     }
 
     @Override

@@ -9,6 +9,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Peer {
-    private String houst;
+    private String host;
     private int port;
 }
